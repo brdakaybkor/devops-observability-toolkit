@@ -32,3 +32,25 @@ This toolkit demonstrates how to build a **production-grade monitoring system** 
 ---
 
 ## 📁 Project Structure
+
+devops-observability-toolkit/
+├── docker-compose.yml
+├── prometheus/
+│ ├── prometheus.yml
+│ └── alert.rules.yml
+├── grafana/
+│ ├── dashboards/
+│ └── provisioning/
+├── loki/
+│ └── config.yml
+└── exporters/
+
+
+---
+
+## ▶️ Getting Started
+```bash
+git clone https://github.com/brdakaybkor/devops-observability-toolkit
+cd devops-observability-toolkit
+docker-compose up -d
+
