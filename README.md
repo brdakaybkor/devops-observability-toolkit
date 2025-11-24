@@ -54,3 +54,17 @@ git clone https://github.com/brdakaybkor/devops-observability-toolkit
 cd devops-observability-toolkit
 docker-compose up -d
 
+
+Prometheus: http://localhost:9090
+
+Grafana: http://localhost:3000
+
+## 📊 Dashboard Samples
+
+Java Microservice Metrics
+
+Kubernetes Node Health
+
+API Performance Overview
+
+Database Query Latency
